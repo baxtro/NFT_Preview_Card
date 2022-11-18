@@ -1,0 +1,193 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: #0D192B;
+}
+
+.card_border {
+display: flex;
+flex-flow: column;
+background-color: #0C1729;
+justify-content: flex-start;
+align-items: center;
+width: 17.188rem;
+height:  28.75rem;
+border-radius: 15% 15% 15% 15%;
+
+}
+
+
+.card {
+display: flex;
+flex-flow: column nowrap;
+background-color: #14253D;
+justify-content: flex-start;
+align-items: center;
+width: 15.625rem;
+height: 26.563rem;
+border-radius: 5%;
+}
+
+
+
+
+.mainimage {
+margin-top: .938rem;
+width: 13.75rem;
+height: 13.75rem;
+border-radius: 3%;
+}
+
+.overlay {
+  width: 13.75rem;
+  height:13.75rem;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 13.125rem;
+  margin: auto;
+  opacity: 0;
+  border-radius: 3%;
+}
+
+.overlay:hover {
+  opacity: .5;
+  background-color: #00FFF7;
+}
+
+
+.overlayimage {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+
+.item {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 600;
+  font-size: 1.125rem;
+  align-self: flex-start;
+  margin-top: .938rem;
+  margin-left: .938rem;
+  color: #FFFFFF;
+}
+
+.item:hover {
+  color: #00FFF7;
+}
+
+.description {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 300;
+  font-size: .813rem;
+  color: #8BACDA;
+  margin-top: .938rem;
+  margin-left: .938rem;
+}
+
+.hypetext {
+  align-self: flex-start;
+  margin-top: .625rem;
+}
+
+.hypeimage1 {
+  padding-left: .938rem;
+  width: .438rem;
+  height: .875rem;
+}
+
+
+.eth {
+  font-family: 'Outfit', sans-serif;
+  position: relative;
+  top: -.188rem;
+  padding-left: .313rem;
+  color: #00FFF7;
+  font-size: .75rem;
+}
+
+
+.hypeimage2 {
+  padding-left: 4.875rem;
+  width: .813rem;
+  height: .813rem;
+}
+
+.days {
+
+  font-family: 'Outfit', sans-serif;
+  color: #8BACDA;
+  position: relative;
+  top: -.125rem;
+  padding-left: .313rem;
+  font-size: .75rem;
+}
+
+hr {
+  width: 87%;
+  padding-top: .625rem;
+  height: .063rem;
+  border: none;
+  border-bottom: .063rem solid;
+  color: #2F415B;
+}
+
+.credit {
+  align-self: flex-start;
+  margin-left: .938rem;
+  padding-top: .625rem;
+}
+
+.avatar {
+  border: .063rem solid white;
+  border-radius: 50%;
+  width: 1.563rem;
+  }
+
+.credittext {
+margin-left: .625rem;
+font-family: 'Outfit', sans-serif;
+color: #8BACDA;
+font-size: .75rem;
+position: relative;
+bottom: .5rem;
+}
+
+.name {
+  font-family: 'Outfit', sans-serif;
+  color: #FFFFFF;
+  font-size: .75rem;
+}
+
+.name:hover {
+  color: #00FFF7;
+}
+.attribution {
+  position: relative;
+  top: 4rem;
+  font-size: .688rem; text-align: center;
+
+  color: #FFFFFF;
+}
+
+.attribution a {
+  color: #8BACDA;
+}
