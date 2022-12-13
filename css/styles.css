@@ -203,7 +203,7 @@ bottom: .5rem;
   left: 0;
   right: 0;
   top: 0;
-  bottom: 8.75rem;
+  bottom: 8.5rem;
   margin: auto;
   opacity: 0;
   border-radius: 3%;
@@ -213,7 +213,7 @@ bottom: .5rem;
   position: absolute;
   left: 0;
   right: 0;
-  top: 3.0rem;
+  top: 2.2rem;
   bottom: 0;
   margin: auto;
 }
