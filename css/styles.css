@@ -180,6 +180,7 @@ bottom: .5rem;
 .name:hover {
   color: #00FFF7;
 }
+
 .attribution {
   position: relative;
   top: 4rem;
@@ -190,4 +191,29 @@ bottom: .5rem;
 
 .attribution a {
   color: #8BACDA;
+}
+  
+  
+@media screen and (min-width: 480px) {
+  
+  .overlay {
+  width: 13.75rem;
+  height:13.75rem;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 11.25rem;
+  margin: auto;
+  opacity: 0;
+  border-radius: 3%;
+}
+
+  .overlayimage {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 1.875;
+  bottom: 0;
+  margin: auto;
 }
